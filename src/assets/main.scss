@@ -60,10 +60,23 @@
 }
 
 .navbar-end {
+    display: flex;
+    width: 6vw;
+    text-align: center;
+    height: 7.2vh;
+    justify-content: center;
     background-color: #65AD2F;
+    color: #FFFFFF;
+    align-items: center;
 }
 
-.navbar-item .navbar-item {
+.navbar-end:hover{
+    background-color: #0D2F5F;
+    color: #FFFFFF;
+
+}
+
+.navbar-item {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
@@ -71,16 +84,6 @@
     color: #FFFFFF;
 }
 
-.navbar-item .navbar-item:hover{
-    background-color: #0D2F5F;
-    color: #FFFFFF;
-
-}
-.navbar-end:hover{
-    background-color: #0D2F5F;
-    color: #FFFFFF;
-
-}
 
 
 //TÍTULO DESTAQUE
@@ -209,4 +212,11 @@
 
 .aulas {
     width: 100%;
+}
+
+.controle{
+    width: 40%;
+} 
+.controle .input{
+    text-align:center ;
 }

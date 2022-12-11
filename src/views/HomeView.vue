@@ -5,16 +5,14 @@
     </div>
 
     <div class="destaque-cards is-flex is-align-items-center is-justify-content-center">
+      
+          <!--Card  -->
+
       <div class="card is-flex is-flex-direction-column is-align-items-center">
         <div class="blue-triangle-top"></div>
-
         <img class="card-icon mt-5" src="../assets/imagens/livro.png" alt="Logo" />
         <div class="card-titulo">
           <h4>Dou aulas de inglês</h4>
-
-
-      
-
         </div>
         <div class="title-line"></div>
         <div class="card-content pt-1">
@@ -35,9 +33,10 @@
 
         </div>
         <div class="green-triangle-bottom"></div>
-
-
       </div>
+    <!-- Fim do Card  -->
+
+
     </div>
     
     <!-- Cartegorias  -->

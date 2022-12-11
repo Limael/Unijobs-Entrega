@@ -19,9 +19,11 @@
 
 
         <div class="navbar-end">
+          <router-link to="/about" >  
           <div class='navbar-item'>
-            <router-link to="/about" class="navbar-item">Entrar</router-link>
+            Entrar
           </div>
+        </router-link>
         </div>
 
 
