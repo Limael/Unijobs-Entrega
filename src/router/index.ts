@@ -8,8 +8,7 @@ const routes: Array<RouteConfig> = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
-  },  {
+    component: () => import(/* webpackChunkName: "about" */ '../views/CadastrarView.vue')  },  {
     path: '/landing',
     name: 'landing',
     // route level code-splitting

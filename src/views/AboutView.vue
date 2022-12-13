@@ -13,24 +13,29 @@
       <div class="box">
         <div class="column is-flex is-justify-content-space-around">
 
-        <div class="controle">
-          <input class="input input is-medium is-rounded" type="text" placeholder="@lucasinsta">
-           
-        </div>
-        <div class="controle">
-          <input class="input is-medium is-rounded" type="text" placeholder="(45) 99819-3666">
-        </div>
-      
-      </div>
+          <div class="controle">
+            <input class="input input is-medium is-rounded" type="text" placeholder="@lucasinsta">
 
-      <div class="column is-flex is-justify-content-space-around">
+          </div>
+          <div class="controle">
+            <input class="input is-medium is-rounded" type="text" placeholder="(45) 99819-3666">
+          </div>
 
-        <div class="controle">
-          <input class="input is-medium is-rounded" type="text" placeholder="lucasFacebook">
         </div>
-        <div class="controle">
-          <input class="input is-medium is-rounded" type="text" placeholder="lucas@lucas.com">
-        </div>
+
+        <div class="column is-flex is-justify-content-space-around">
+
+          <div class="controle">
+            <input class="input is-medium is-rounded" type="text" placeholder="lucasFacebook">
+            <span class="icon is-small is-left">
+              <i class="crack"></i>
+            </span>
+
+
+          </div>
+          <div class="controle">
+            <input class="input is-medium is-rounded" type="text" placeholder="lucas@lucas.com">
+          </div>
 
         </div>
 

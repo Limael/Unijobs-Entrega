@@ -220,3 +220,44 @@
 .controle .input{
     text-align:center ;
 }
+
+.logo-hr{
+    width: 60%;
+    background: linear-gradient(to right,#65AD2F,#0E346A);
+    padding: 0.2vh;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-top:1%
+
+} 
+
+.blue-triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 305px 375px 0 0;
+    border-color: #0E346A transparent transparent transparent;
+    align-self: flex-start;
+}
+
+.square{
+    width: 50vw;
+    height: 70vh;
+    background: #EDEDED;
+    justify-content: center;
+    border-radius: 48px;
+    background-image: linear-gradient(#EDEDED, #EDEDED), radial-gradient(circle at top left, #65AD2F, #0E346A);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.3vw;
+}
+
+form img{
+    width: 40%;
+}
+.control input{
+    text-align: center;
+    width: 22vw;
+}
+
