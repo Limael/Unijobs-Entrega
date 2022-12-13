@@ -6,8 +6,8 @@ Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
   {
-    path: '/',
-    name: 'home',
+    path: '/login',
+    name: 'login',
     component: () => import(/* webpackChunkName: "about" */ '../views/CadastrarView.vue')  },  {
     path: '/landing',
     name: 'landing',
